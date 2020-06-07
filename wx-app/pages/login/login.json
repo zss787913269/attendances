@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+   
+  },
+  "navigationStyle":"custom",
+    "disableScroll": true
+ 
+}

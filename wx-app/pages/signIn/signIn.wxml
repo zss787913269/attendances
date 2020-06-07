@@ -1,0 +1,57 @@
+<!--pages/signIn/signIn.wxml-->
+<view>
+	<view class="cu-list menu-avatar">
+		<view class="cu-item line">
+			<view class="cu-avatar round lg" style="background-image:url(../../../../img/kq.jpg);"></view>
+			<view class="content">
+				<view class="text-grey">{{name}}</view>
+				<view class="text-gray text-sm flex">
+					<view class="text-cut">
+						{{department}}
+					</view>
+				</view>
+			</view>
+			<view class="action">
+				<view class="text-grey text-xs">2020.03.27</view>
+			</view>
+		</view>
+	</view>
+	<view class="cu-timeline">
+		<view class="cu-time">上班打卡</view>
+		<view class="time-box" wx:if="{{!show}}">
+			<view>
+				<text class="time-msg">打卡时间 {{officeTime}}</text>
+			</view>
+			<view class="address-box">
+				<text class="'cuIcon-locationfill'"> <text class="address">{{address}}</text></text>
+			</view>
+		</view>
+		<view class="yuan" wx:if="{{show}}" bindtap="showM">
+			<view class="msg">
+				上班打卡
+			</view>
+			<view class="time">
+			{{h}}:{{m}}:{{s}}
+			</view>
+		</view>
+	</view>
+	<view class="cu-timeline down-class" wx:if="{{down}}">
+		<view class="cu-time">下班打卡</view>
+		<view class="time-box" wx:if="{{showdown}}">
+			<view>
+				<text class="time-msg">打卡时间 {{downTime}}</text>
+			</view>
+			<view class="address-box">
+				<text class="'cuIcon-locationfill'"> <text class="address">{{address}}</text></text>
+			</view>
+		</view>
+		<view class="yuan" wx:if="{{down2}}" bindtap="showD">
+			<view class="msg">
+				下班打卡
+			</view>
+			<view class="time">
+				{{h}}:{{m}}:{{s}}
+			</view>
+		</view>
+	</view>
+</view>

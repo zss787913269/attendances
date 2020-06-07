@@ -1,0 +1,55 @@
+/* pages/signIn/signIn.wxss */
+
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.line{
+  border-bottom: 1rpx solid #ccc;
+}
+.yuan{
+    height: 220rpx;
+    width: 220rpx;
+    background-color: cornflowerblue;
+    border-radius: 100%;
+    margin: 20rpx auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.msg{
+  font-size: 30rpx;
+  color: #fff;
+}
+.time{
+  margin-top: 15rpx;
+  color: #ccc;
+
+}
+.address-box{
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+  
+}
+.address-box text{
+  margin-left: 20rpx;
+}
+.address{
+  font-size: 26rpx;
+  color: #c1c1c1;
+
+}
+.time-msg{
+  font-size: 32rpx;
+  color: #000;
+  margin-left: 20rpx;
+  font-weight: 500;
+  font-family: fantasy;
+}
+.down-class{
+  margin-top: 30rpx;
+}

@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+    <image class="img" src="../../img/pink.jpg"></image>
+    <view class="login-box">
+      <view class="user-box">
+          <image src="../../img/user.png"></image>
+          <input  bindinput ="userNameInput" name="userName" type="number" placeholder="员工编号"></input>
+      </view>
+       <view class="psw-box">
+          <image  src="../../img/pws.png"></image>
+          <input   password  bindinput="passWdInput" placeholder="密码"></input>
+      </view>
+
+      <view class="btn"  bindtap="loginBtnClick">
+            <text >登录</text>
+      </view>
+    </view>
+    <view class="bottom">
+      <text>
+        Copyright@ 2020 hjy .ALL Right Reserved
+      </text>
+    </view>
+</view>

@@ -1,0 +1,27 @@
+{
+  "pages": [
+
+    "pages/login/login",
+    "pages/signIn/signIn",
+    "pages/test/test"
+ 
+   
+   
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于考勤系统"
+    }
+  },
+ 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
